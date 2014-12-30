@@ -1,0 +1,60 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td, img { border: medium none; margin: 0; padding: 0; }
+body, button, input, select, textarea { font-size: 12px; font-family: "simsun"; }
+ul, ol { list-style: none; vertical-align: middle; }
+html { overflow: hidden; }
+img { border: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+mark { background: #ef0707; font-family: "microsoft yahei"; padding: 0 4px; color: #fff; }
+a { text-decoration: none; color: #666; outline: none; }
+a:visited { text-decoration: none; color: #666; }
+a:hover { color: #ca0000; }
+a:active { color: #666; }
+:focus { outline: 0; }
+body { color: #4c3929; }
+
+.menu a { display: inline-block;  *display: inline; *zoom: 1;}
+
+
+.rt { position: fixed; z-index: 99; right: 0; top: 0; width: 384px; height: 300px; background: url(../images/rt.png) no-repeat 0 0; }
+.lb { position: fixed; z-index: 99; left: 0; bottom: 0; width: 384px; height: 278px; background: url(../images/lb.png) no-repeat 0 0; }
+
+.logo { position: fixed; z-index: 99; left: 46px; top: 34px; width: 229px; height: 94px; background: url(../images/logo.png) no-repeat 0 0; 
+	-webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+
+#slide { position: absolute; top: 50%; left: 50%; z-index: 99; width: 1100px; height: 464px; margin-top: -270px; margin-left: -550px; background: transparent; }
+.DB_tab25 { width: 100%; height: 464px; position: relative; }
+.DB_tab25 .DB_bgSet { position: relative; }
+.DB_tab25 .DB_bgSet li { position: absolute; width: 100%; height: 464px; display: none; }
+.DB_tab25 .DB_imgSet { position: absolute; width: 100%; left: 50%; margin-left: -500px; }
+.DB_tab25 .DB_imgSet .DB_1_1 { position: absolute; left: 200px; top: 0; }
+.DB_tab25 .DB_imgSet .DB_1_2 { position: absolute; left: 480px; top: 150px; }
+.DB_tab25 .DB_imgSet .DB_1_3 { position: absolute; left: 480px; top: 250px; }
+.DB_tab25 .DB_menuWrap { position: absolute; width: 1000px; left: 50%; margin-left: -500px; }
+.DB_tab25 .DB_menuWrap .DB_menuSet { position: absolute; top: 160px; left: 50px; width: 105px; height: 182px; background: url(../images/zhang.png) no-repeat 0 0; }
+.DB_tab25 .DB_menuWrap .DB_menuSet li { position: absolute; cursor: pointer; margin: 0 3px; }
+.db_ct1 { top: 2px; left: 25px; width: 45px; height: 44px; }
+.db_ct2 { top: 49px; right: 5px; width: 46px; height: 52px; }
+.db_ct3 { top: 73px; left: -1px; width: 75px; height: 51px; }
+.db_ct4 { left: 15px; bottom: 0px; width: 45px; height: 58px; }
+.DB_tab25 .DB_prev, .DB_tab25 .DB_next { position: absolute; top: 220px; cursor: pointer; display: none; }
+.DB_tab25 .DB_prev { left: -50px; }
+.DB_tab25 .DB_prev span { display: block; width: 26px; height: 62px;}
+.DB_tab25 .DB_next { right: -50px; }
+.DB_tab25 .DB_next span { display: block; width: 26px; height: 62px;}
+
+.menu {position: absolute; top:20px; left: 60%; margin-left: -460px; z-index: 99999;height: 36px;
+	clear: both; overflow: hidden; font-size: 0; -webkit-transition: all .5s ease-in-out .5s;
+	-moz-transition: all .5s ease-in-out .5s; transition: all .5s ease-in-out .5s; 
+	}
+.menu a { margin-right: 10px; width: 106px; height: 36px; text-align: center;
+	color: #c29166; font: 14px/36px "microsoft yahei";
+	}
+.menu a:hover, .menu a.hover { color: #ffd5af;
+	-webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; transition: all .3s ease-in-out;
+	}
+.menu-in { width:930px;
+	}
+
+.product{border-left:1px solid #c29166; position:absolute; bottom:2%; left:55%; height:170px; width:600px;}
+.producta{float:left; color:#c29166; font:14px/36px "microsoft yahei"; height:170px; width:150px;text-align:center;
+			padding-right:20px;padding-left:20px; border-right:1px solid #c29166;}
